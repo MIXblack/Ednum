@@ -1824,6 +1824,17 @@ button {
       line-height: 2;
     }
 
+    input {
+      border: initial;
+      background: transparent;
+      outline: initial !important;
+      font-size: 0.8rem;
+      width: 93%;
+      color: $primary-color;
+      padding: 0.4rem 1rem;
+      line-height: 2;
+    }
+
     .search-icon {
       font-size: 17px;
       border-radius: 10px;
@@ -1998,7 +2009,7 @@ button {
 }
 
 .logo {
-  width: 110px;
+  width: 210px;
   height: 35px;
   background: url($logoPath) no-repeat;
   background-position: center center;
@@ -8343,11 +8354,22 @@ i.large-icon {
           display: none;
         }
 
+        input {
+          display: none;
+        }
+
         &.mobile-view {
           margin-left: initial;
           margin-right: 15px;
 
           select {
+            display: block;
+            width: 100%;
+            height: 70px;
+            padding-left: 0;
+          }
+
+          input {
             display: block;
             width: 100%;
             height: 70px;
