@@ -5427,6 +5427,18 @@ i.large-icon {
       color: #145388; }
 
 /* 46.Blog */
+.summary-content {
+  padding: 0px !important;
+  margin: 0px !important; }
+
+.summary-card-container {
+  padding: 0px !important;
+  margin: 0px !important; }
+  .summary-card-container .summary-heading {
+    font-size: 1.4rem; }
+  .summary-card-container .summary-desc {
+    line-height: 1.4; }
+
 .listing-card-container .listing-heading {
   height: 45px;
   overflow: hidden; }

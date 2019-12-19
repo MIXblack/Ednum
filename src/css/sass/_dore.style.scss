@@ -7271,6 +7271,34 @@ i.large-icon {
 }
 
 /* 46.Blog */
+  
+// Summary Courses 
+.summary-content {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.summary-card-container {
+  padding: 0px !important;
+  margin: 0px !important;
+
+    .summary-heading {
+      // height: 45px;
+      // overflow: hidden;
+      font-size: 1.4rem;
+    }
+
+  .summary-desc {
+    // height: 60px;
+    // overflow: hidden;
+    line-height: 1.4;
+
+    @include respond-below(lg) {
+      // height: 60px;
+    }
+  }
+}
+
 .listing-card-container {
   .listing-heading {
     height: 45px;
